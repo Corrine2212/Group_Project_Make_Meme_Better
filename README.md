@@ -4,6 +4,9 @@
 - [Project 2: Make Meme Better: A Social Media App](#project-2-make-meme-better-a-social-media-app)
   - [Table of Contents](#table-of-contents)
   - [Demo:](#demo)
+    - [Logging in \& creating an account:](#logging-in--creating-an-account)
+    - [Interacting with other posts:](#interacting-with-other-posts)
+    - [Creating a post \& logging out:](#creating-a-post--logging-out)
   - [Project Description:](#project-description)
     - [What does the application do?](#what-does-the-application-do)
     - [Technologies used and why?](#technologies-used-and-why)
@@ -24,7 +27,14 @@
 
 ## Demo:
 
-![Screencapture]()
+### Logging in & creating an account: 
+![logging in](./demo/logging%20in.gif)
+
+### Interacting with other posts: 
+![screencapture](./demo/post_interactions.gif)
+
+### Creating a post & logging out: 
+![creating a post & logging out](./demo/creating_post_logging%20out.gif)
 
 
 ## Project Description:
@@ -53,9 +63,25 @@ Users can...
 
 ## How to install and run the project:
 1. Open files in editor e.g. Visual Studio Code
-2. ...
-3. In the project directory, run: `npm start`
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Run installs:
+```
+npm init -y
+
+npm install express
+
+npm install -D nodemon
+
+npm install cors
+
+npm install mongodb@3.5.7
+
+<!-- dependencies -->
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-router-dom react-scripts styled-components web-vitals
+
+```
+3. In the server directory, run: `npm run server:dev`
+4. In the client directory, run: `npm start`
+6. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 
